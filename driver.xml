@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+	<configuration>
+	    <host>localhost</host>
+	    <user>admin</user>
+	    <password>admin</password>
+	    <port>5672</port>
+	    <!-- MilliSeconds -->
+	    <runtime>30000</runtime>
+	    <!-- Queues -->
+	    <addresses>
+	      <address>/foo</address>
+	      <address>/bar</address>
+	      <address>/baz</address>
+	    </addresses>
+
+	</configuration>
